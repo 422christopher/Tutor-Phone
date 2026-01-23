@@ -1,0 +1,9 @@
+{
+  "name": "Socratic Screen Tutor",
+  "description": "An iPad-inspired multimodal tutor that uses Gemini Live to see your screen and guide you using the Socratic method.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "display-capture"
+  ]
+}
