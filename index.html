@@ -3,8 +3,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Socratic Screen Tutor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Socratic Lens</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +15,16 @@
     <style>
       body {
         font-family: 'Inter', sans-serif;
-        background-color: #f5f5f7;
+        background-color: #000;
+        margin: 0;
+        padding: 0;
         overflow: hidden;
+        height: 100vh;
+        width: 100vw;
       }
-      .glass {
-        background: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-      }
-      .ipad-shadow {
-        box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+      #root {
+        height: 100%;
+        width: 100%;
       }
     </style>
   <script type="importmap">
